@@ -1,0 +1,23 @@
+body { font-family: Arial; color: #777; margin: 0 auto; }
+.entries, h1, .navi, .pager, form { margin: 0 auto; max-width: 960px; display: block; padding: 0 10px; }
+h1 { margin: 20px auto 0; }
+.entries { margin-bottom: 20px; }
+.entry { box-shadow: 0 0 3px #aaa; padding: 20px; margin: 20px 20px 0 0; width: 250px; }
+.entry:hover { box-shadow: 0 0 20px #aaa; width: 255px; margin-left: -2px; color: #232323; }
+.title { font-size: 24px; line-height: 30px; }
+.body { font-size: 14px; line-height: 20px; }
+.date { margin: 20px 0 0; text-align: right; }
+ul { list-style-type: none; margin: 0; padding: 0; }
+.pager { text-align: center; margin-bottom: 40px; }
+.pager li { display: inline-block; }
+.prev { margin: 0 5px 0 0; }
+.next { margin: 0 0 0 5px; }
+a { text-decoration: none; color: #6699ff; }
+.disabled  a { color: #777; cursor: default; }
+.field { width: 500px; box-shadow: 0 0 3px #aaa; border: 0; border-radius: 5px; padding: 5px; }
+.button { background: #fff; padding: 5px 10px; box-shadow: 0 0 3px #aaa; border: 0; border-radius: 5px; cursor: pointer; }
+.none { display: none; }
+.entry:nth-child(3n+0) { background:#ddffdd; }
+.entry:nth-child(3n+1) { background:#ffdddd; }
+.entry:nth-child(3n+2) { background:#ddddff; }
+

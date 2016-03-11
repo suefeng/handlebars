@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Handlebars and Grid Demo | Sue Feng Design</title>
+	<!-- meta cluster -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="default.css">
+	<link rel="stylesheet" href="simplePagination.css">
+	<!-- javascript head block -->
+	<script src="js/handlebars.js"></script>
+	<script src="js/jquery.js"></script>
+	<!--<script src="js/jquery.simplePagination.js"></script>-->
+	<script src="js/jquery.grid-a-licious.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+<div class="suefeng-demo-navi">
+		<a href="http://suefeng.net/?p=165"><strong>&laquo; Previous Demo: </strong>jQuery and jQuery UI Demos</a>
+		<span class="right">
+			<a href="http://suefeng.net/?p=317"><strong>Back to the Handlebars Article</strong></a>
+		</span>
+</div>
+<h1>Handlebars and Grid Demo</h1>
+
+<p class="navi"><a href="data/entries.js">view data</a> | <a href="form.php">view form</a></p>
+
+<div id="content-placeholder"></div><!--/#content-placeholder-->
+
+<script id="entries" type="text/x-handlebars-template">
+<div class="entries">
+	{{#each entry}}
+	<div class="entry">
+	<div class="title">{{title}}</div>
+	<div class="body">{{body}}</div>
+	<div class="date">{{date}}</div>
+	</div>
+	{{/each}}
+</div>
+</script>
+<noscript><div class="entries">Your browser does not have JavaScript enabled. Please enable JavaScript to view this page. Thank you!</div></noscript>
+</body>
+</html>
